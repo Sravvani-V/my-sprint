@@ -1,0 +1,99 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+*::after,
+
+*::before {
+
+    box-sizing: border-box;
+
+}
+
+
+
+.sidebar2 {
+
+    display: flex;
+
+    position: fixed;
+
+    flex-direction: row;
+
+    /* inset: 0 75% 0 0; */
+
+    /* top,right,bottom,left */
+
+    inset: 100px 1000px 0px 0px;
+
+    /* background-color: hsla(0,40%,98%,0.092); */
+
+    background-color: black;
+
+    padding-top: 25px;
+
+}
+
+
+
+.ulitem li {
+
+    display: flex;
+
+    flex-direction: row;
+
+    margin-left: 20px;
+
+    align-items: center;
+
+    cursor: pointer;
+
+    padding-block: 0.1rem;
+
+    gap: 0.1rem;
+
+}
+
+
+
+.ulitem li:hover {
+
+    /* background-color: gray; */
+
+    /* background: #202932; */
+
+    background: #2c3844;
+
+    width: 260px;
+
+}
+
+
+
+.ulitem .icon {
+
+    color: white;
+
+    font-size: 25px;
+
+}
+
+
+
+.ulitem .text {
+
+    color: white;
+
+    font-size: 20px;
+
+    margin-left: 10px;
+
+}

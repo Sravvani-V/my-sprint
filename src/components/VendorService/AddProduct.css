@@ -1,0 +1,59 @@
+.container{
+    align-items: centers;
+    /* background-image: url("https://st4.depositphotos.com/3900811/41703/v/600/depositphotos_417030522-stock-illustration-online-auction-website-as-sales.jpg");
+    background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {
+  font-size: 40px;
+}
+#pID {
+  position: relative;
+  left: -20px;
+  font-size: medium;
+}
+#pName {
+  position: relative;
+  left: 27px;
+  font-size: medium;
+}
+#bPrice {
+  position: relative;
+  left: 40px;
+  font-size: medium;
+}
+#pDetails {
+  position: relative;
+  left: 23px;
+  font-size: medium;
+}
+#pStatus {
+  position: relative;
+  left: 25px;
+  font-size: medium;
+}
+#cat {
+  position: relative;
+  font-size: medium;
+  left: 43px;
+}
+#save {
+  font-size: 15px;
+}
+.container {
+  text-align: center;
+  /* background-image: url(../src/asserts/a.jpg); */
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  }
+
+
+  
+  

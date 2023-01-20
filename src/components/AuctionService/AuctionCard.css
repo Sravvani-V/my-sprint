@@ -1,0 +1,58 @@
+.details .box-container .box {
+  width: 40%;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 1rem;
+  border: .2rem solid rgba(0, 0, 0, .2);
+  box-shadow: var(--box-shadow);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+  gap: 1rem;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  /* animation: pulse-border 2000ms ease-out infinite; */
+}
+/* .details .box-container .box img {
+  height: 17rem;
+  margin: 1rem 0;
+} */
+.details .box-container .box h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+}
+.details .box-container .box span {
+  color: var(--green);
+  font-weight: bolder;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+}
+
+/* .card-img-top{
+  width: 75%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+  
+  padding: 5px;
+  border-radius: 10px;
+  border-color: black;
+  /* margin-left: 300px; */
+  
+ 
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  
+
+}

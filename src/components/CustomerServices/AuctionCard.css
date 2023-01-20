@@ -1,0 +1,152 @@
+.details .box-container .box {
+
+ 
+
+    width: 40%;
+  
+   
+  
+    padding: 2.5rem;
+  
+   
+  
+    background: #fff;
+  
+   
+  
+    border-radius: 1rem;
+  
+   
+  
+    border: .2rem solid rgba(0, 0, 0, .2);
+  
+   
+  
+    box-shadow: var(--box-shadow);
+  
+   
+  
+    position: relative;
+  
+   
+  
+    overflow: hidden;
+  
+   
+  
+    text-align: center;
+  
+   
+  
+    display: grid;
+  
+   
+  
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+  
+   
+  
+    gap: 1rem;
+  
+   
+  
+    float: left;
+  
+   
+  
+    width: 33.33%;
+  
+   
+  
+    padding: 10px;
+  
+  
+  
+  
+  
+  
+    /* animation: pulse-border 2000ms ease-out infinite; */
+  
+   
+  
+  }
+  
+   
+  
+  .details .box-container .box img {
+  
+   
+  
+    height: 17rem;
+  
+   
+  
+    margin: 1rem 0;
+  
+  
+  
+  
+  
+  }
+  
+   
+  
+  .details .box-container .box h3 {
+  
+   
+  
+    color: var(--black);
+  
+   
+  
+    font-size: 2.5rem;
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  .details .box-container .box span {
+  
+    color: var(--green);
+  
+    font-weight: bolder;
+  
+    margin-right: 1rem;
+  
+    font-size: 2.5rem;
+  
+  
+  
+  
+  }
+  .grid-items{
+    margin-left: 15px;
+  }
+  .card-title{
+    font-size: medium;
+  }
+  .card-text{
+    font-size: medium;
+  }
+
+  .btn-btn primary{
+    font-size: large;
+    background-clip: border-box;
+  }
+
+  .auctionClass{
+    font-size: large;
+    align-content: center;
+  }
+
+  .bidClass{
+    font-size : large
+  }
+
+  .placeBid{
+    font-size: large;
+  }
